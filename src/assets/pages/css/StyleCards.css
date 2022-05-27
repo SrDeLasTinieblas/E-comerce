@@ -1,0 +1,141 @@
+
+/*body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.carrito{
+    outline: none;
+    box-shadow: none;
+}
+.grid{
+    width: 100%;
+    /*border: solid 2px blue;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ico{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 290px;
+    height: 320px;
+    border-radius: 13px;
+}
+
+.grid .card{
+    /*border: solid 2px red;*/
+    width: 350px;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+}
+.card h4 {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card .precio{
+    color: #333;
+    font-size: 32px;
+    top: 13px;
+    left: 90px;
+    position: relative;
+}
+.card a{
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0099ff;
+    top: 30px; 
+    left: -60px;
+}
+/*--------*/
+
+/*.Container-cards{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    width: 336px;
+    height: 530px;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+}
+
+.card img{
+    width: 290px;
+    height: 320px;
+    border-radius: 13px;
+}
+
+.card h4 {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card span{
+    color: #333;
+    font-size: 24px;
+    top: 13px;
+    left: 113px;
+    position: relative;
+}
+.card a{
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+    color: #035083;
+    top: 50px; 
+    left: -100px;
+}
+*/
+
+
+
+
+
+
+
+
+

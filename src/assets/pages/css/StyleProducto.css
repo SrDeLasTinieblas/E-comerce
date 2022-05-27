@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    width: 100%;
+    /*border: solid 2px blue;*/
+    /*column-count: 3;*/
+    /*column-gap:all;*/
+}
+
+.Form_{
+    padding: 3px;
+    position: relative;
+}
+.textarea{
+    position: relative;
+    min-width: 67.5%;
+    min-height: 285px;
+    top: 21%;
+    left: 14%;
+    border: 2px solid #ced4da;
+    line-height: 1.5;
+    outline: none;
+    padding: .25rem .25rem !important;
+}
+
+.submit{
+    position: absolute;
+    margin-top: -6%; 
+    width: 120px;
+    left: 15%;
+}
+.mensaje{
+    position: relative;
+    left: 0%;
+    top: 4px;
+}
+.email{
+    border-color: rgb(60, 65, 68);
+    min-height: calc(1.5em + 0.75rem + 2px);
+    position: absolute;
+    margin-top: -11%;
+    width: 481px;
+    left: 36%;
+    border: 2px solid #ced4da;
+    line-height: 1.5;
+    outline: none;
+    padding: 0.25rem 0.25rem!important;
+    /*position: relative;
+    width: 150px;
+    height: 230px;*/
+}
+.email-text{
+    position: absolute;
+    margin-top: -33%;
+    left: 5%;
+}
+@media (max-width: 639px){
+    h2{
+        left: 1%;
+        top: 60px;
+        font-size: 25px;
+    }
+    body{
+        overflow: scroll;
+      }
+  }
+
+  
+    /*@media (max-width: 599px){
+        h2{
+            left: 1%;
+            top: 60px;
+            font-size: 25px;
+        }
+        body{
+            overflow: scroll;
+        }
+    }
+*/
+/*
+    left: -300px;
+    top: -50px; */
+
+/*.flotanrte{
+    position: fixed;
+    right: 0;
+    bottom: 24px;
+    z-index: 50000;
+    display: none;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 25px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 15px;
+    width: 220px;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    background-color: #35a600;
+}*/
+/*.card {
+    text-decoration: none;
+    /*cursor: pointer;*/
+    /*width: 224px;
+    height: 330px;
+    z-index: 1;
+    box-shadow: 1px 0 10px rgb(0, 0, 0);
+    /*
+    background-color : #ebebeb;
+    box-shadow: 1px 0 10px rgb(0, 0, 0);
+    margin: 5% 15%;*/
+/*}*/
+/*.contenido{
+    position: relative;
+    width: 70%;
+    height: 120px;
+    border: 5px solid #262626;
+    background-color: rgba(0, 0, 0, 0.973);
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 50px 100px #262626;
+    margin-left: 14%;
+    }*/
+/*.slick-track{
+    opacity: 1;
+    width: 3822px;
+    transform: translate3d(-1365px, 0px, 0px);
+}
+.grid-product slick-slide slick-cloned{
+
+    display: block;
+}*/
+

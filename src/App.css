@@ -1,0 +1,249 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	background: #eee !important;	
+}
+.image{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Menu {
+    height: 60px;
+    width: 70%;
+    margin: -5% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    /*box-shadow: 5px 0 10px rgb(0, 0, 0);*/
+    position: fixed;
+    background: rgb(255, 255, 255);
+    z-index: 100;
+}
+.toggle{
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+@media (max-width: 639px){
+  .Menu{
+    margin: 2% 15%;
+  }
+    .menu_items {
+        /*border-bottom: 1px solid #fff;*/
+        flex-direction: column;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 100;
+        
+    }
+    /**{
+      overflow-y: scroll;
+    }*/
+}
+
+
+
+
+label img{
+    width: 40px;
+    display: flex;
+    
+}
+.logo{
+    /*color:rgb(0, 0, 0);*/
+    font-size: 35px;
+    padding: 0 80px;
+    /*font-weight: bold;*/
+    /*font-family: 'Anton', sans-serif;*/
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu_items li {
+    border-radius: 30px;
+    margin: 0 5px;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    /*color: rgb(255, 255, 255);*/
+    color: #444;
+}
+.menu_items li:hover, li.active{
+    background-color: #ffd9e0;
+    transition: .2s;
+}
+.btn-menu{
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+ul.show{
+    top: 65px;
+}
+@media screen and (max-width: 952px ){
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+    .menu_items li a {
+        font-size: 16px;
+    }
+}
+@media screen and(max-width: 852px) {
+    .Menu{
+        height: 65px;
+    }
+    .btn-menu{
+        display: inline-flex;
+    }
+    .menu_items{
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu_items li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+    .menu_items li:hover{
+        background: none;
+    }
+    .menu_items li a{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .menu_items li a:hover{
+        color: black;
+    }
+    .logo{
+        font-size: 25px;
+        padding-left: 35px;
+    }
+}
+
+/*.menu_items {*/
+    /*min-height: 100vh;*/
+   /* height: 100px;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}*/
+
+@media (max-width: 639px){
+.nav {
+      /*border-bottom: 1px solid #fff;*/
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+      background: rgb(255, 255, 255);
+      position: fixed;
+      left: 0;
+      top: 60px;
+      width: 100%;
+      padding: 0;
+      z-index: 100;
+  }
+}
+
+/*.imagen:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}*/
+*{
+  text-decoration: none;
+}
+
+/*body{
+  background: url(/src/assets/images/fondo1.png);
+}*/
+  
+/*  .padre {
+    background: rgb(0, 0, 0);
+    height: 150px;
+    /*IMPORTANTE*/
+/*    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    
+  }
+  
+  .hijo {
+    background: red;
+    width: 120px;
+  }*/
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/

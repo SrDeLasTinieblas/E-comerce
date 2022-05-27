@@ -1,0 +1,27 @@
+###
+//end point
+GET http://localhost:5000/blog HTTP/1.1
+
+
+###
+PUT http://localhost:5000/blog HTTP/1.1
+Content-Type: application/json
+
+{    
+    "slider": "sssss"
+  //  "apellido": "slider"
+
+}
+/*
+###
+DELETE http://localhost:8000/productos/10 HTTP/1.1
+
+###
+PUT http://localhost:8000/productos/11 HTTP/1.1
+Content-Type: application/json
+/*
+{
+    "Precio": 121.0,
+    "Descripcion": "A",
+    "Titulo": 2
+}*/

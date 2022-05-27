@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body {
+overflow-x: hidden; 
+}*/
+
+h3{
+    margin: 45px;
+}
+
+h5{
+    margin: 50px;
+    margin-left: 25%;
+}
+
+.Instagram {
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin-left: 4%;
+    /*margin-left: 25%;*/
+}
+.Ubicacion{
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin-left: 4%;
+}
+.contactados{
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin-left: 4%;
+}
+.frase{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
+}

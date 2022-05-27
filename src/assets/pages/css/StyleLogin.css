@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.correo{
+    position: absolute;
+    width: 29.5%;
+    padding: 16.5px 14px;
+    margin: 8px 0;
+    top: 25.8%; 
+    left: 35.8%;
+    /*box-sizing: border-box;*/
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    margin: 0;
+}
+.pass{
+    position: absolute;
+    width: 29.5%;
+    margin: 8px 0;
+    top: 37.9%; 
+    left: 35.8%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    margin: 0;
+    padding: 16.5px 14px;
+}
+.registro-text{
+    position: relative;
+    font-size: 40px;
+    top: 120px;
+    left: 0%;
+}
+.boton{
+    position: relative;
+    left: 7.7%;
+    width: 297%;
+    top: 365px;
+    box-sizing: border-box;
+    
+}
+    /*position: absolute;
+    width: 30%;
+    left: 35.4%;
+    top: 365px;*/   

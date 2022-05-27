@@ -1,0 +1,160 @@
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fmiguelsempaii%2Fstatus%2F1303859963941531648&psig=AOvVaw3aJmGKpKVxnt_vbz1PVZoT&ust=1636484661762000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCF4sq6ifQCFQAAAAAdAAAAABAD
+
+
+
+
+
+
+
+
+
+
+//----------------
+
+        {/* card 1 */}
+        <div className="card">
+          {producto.filter(dato => 
+            dato.Id === 1).map(
+              product =>
+            <>
+            {<img src={Cake_heart_strawberry} />}
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button /*onClick={ClickButton}*/ className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            {/** storage.removeItem(precio1)*/}
+              {/*<ShoppongCart />*/}
+            <span>{'$'+product.Precio}</span>
+            {/*onChange={e => setText(e.target.value)*/}
+            {/*value={text}*/}
+            
+            </>
+          )}
+          {/*<span>$999</span>*/}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+        {/* card 2 */}
+        <div className="card">
+          <img src={Feliz_cumpleaños} />
+          {producto.filter(dato => 
+            dato.Id === 17).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card2} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+
+        </div>
+
+        {/* card 3 */}
+        <div className="card">
+          <img src={Sweet_cake} />
+          {producto.filter(dato => 
+            dato.Id === 24).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card3} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+
+        {/* card 4 */}
+        <div className="card">
+          <img src={Cake_Homero_Simpson} />
+          {producto.filter(dato => 
+            dato.Id === 25).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card4} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+
+        {/* card 5 */}
+        <div className="card">
+          <img src={Cake_dosis_de_chocolate} />
+          {producto.filter(dato => 
+            dato.Id === 26).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card5} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+
+        {/* card 6 */}
+        <div className="card">
+          <img src={Cake_heart} />
+          {producto.filter(dato => 
+            dato.Id === 27).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card6} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+
+        {/* card 7 */}
+        <div className="card">
+          <img src={Torta_de_pudin} />
+          {producto.filter(dato => 
+            dato.Id === 28).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card7} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+        {/* card 8 */}
+        <div className="card">
+          <img src={Budin} />
+          {producto.filter(dato => 
+            dato.Id === 29).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card8} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>
+        </div>
+
+        {/* card 9 */}
+        <div className="card">
+          <img src={Tocino_de_cielo} />
+          {producto.filter(dato => 
+            dato.Id === 32).map(
+              product =>
+            <>
+            <h4>{product.Titulo}</h4>
+            <p>{product.Descripcion}</p>
+            <button onClick={card9} className="add-to-shopping-cart">AÑADIR AL CARRITO</button>
+            <span>{'$'+product.Precio}</span>
+            </>
+          )}
+          <Link to="/Finaliza-Compra">Comprar</Link>

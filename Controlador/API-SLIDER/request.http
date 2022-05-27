@@ -1,0 +1,27 @@
+
+###
+GET http://localhost:3056/api HTTP/1.1
+
+###
+POST http://localhost:3056/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "slider": "Juan"
+ //   "apellido": "Perez"   
+}
+
+###
+DELETE http://localhost:3056/api/4 HTTP/1.1
+
+###
+PUT http://localhost:3056/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "slider": "https://i.ibb.co/K9bRrQh/banner.jpg"
+}
+
+
+
+

@@ -1,0 +1,57 @@
+Precio de costo de los productos ==> 388.5
+Precio de venta de los productos ==> 930
+
+INGRESOS DE LAS ORDENS ==> 1,174 
+
+GANANCIAS = 1,174 - 388.5 = 785.5
+
+GANANCIA TOTAL = 785.5
+
+SET @SUMPreciosCosto = (SELECT Sum(PrecioCosto) from productos);
+SET @SUMPrecioIngresos = (SELECT Sum(Precio) from orden_detalles);
+
+SELECT @SUMPreciosCosto - @SUMPrecioIngresos
+
+
+SET @SUMPreciosCosto = (SELECT Sum(PrecioCosto) from productos);
+SET @SUMPrecioIngresos = (SELECT Sum(Precio) from orden_detalles);
+SET @ganancias = @SUMPreciosCosto - @SUMPrecioIngresos;
+
+SELECT @ganancias
+
+SET @SUMPrecioIngresos = (SELECT Sum(Precio) from orden_detalles);
+    SET @ganancias = @SUMPreciosCosto - @SUMPrecioIngresos;
+    SELECT @ganancias AS ganancias
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
