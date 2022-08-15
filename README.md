@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+![spamm](https://media1.giphy.com/media/E1NLmO4z97Jb8iM8nq/giphy.gif?cid=790b76110ff0143295f28f751592a82570a85474a1956334&rid=giphy.gif&ct=g)
+
 ## Available Scripts
 
 In the project directory, you can run:
